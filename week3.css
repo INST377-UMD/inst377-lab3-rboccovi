@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif; /* Custom font-family */
+  text-align: center; /* Center text */
+}
+
+/* Styling for Header & Footer */
+.section {
+  margin: 20px;
+  padding: 10px;
+  background-color: #5b0202;
+}
+
+/* Header Styling */
+header h1 {
+  color: #ffffff;
+}
+
+p {
+    color: azure;
+}
+
+/* Main Content and Sidebar Styling */
+.content {
+  display: flex;
+  justify-content: space-between;
+  color: azure;
+}
+
+.main-content,
+.sidebar {
+  width: 45%; /* Percentage width for both */
+  margin: 20px;
+  padding: 20px;
+  background-color: #66526d;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #af7070;
+}
+
+.sidebar:hover {
+  background-color: #5b0202; /* Sidebar hover effect */
+}
+
+/* Styling for Form */
+form input[type="text"] {
+  width: 200px;
+  transition: width 0.3s ease;
+}
+
+form input[type="text"]:focus {
+  width: 300px; /* Increase width on focus */
+}
+
+/* Styling for Select */
+form select {
+  margin: 10px 0;
+}
+
+/* Navigation Styling */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: rgb(162, 68, 68); /* Hover effect for nav items */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #975858;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Styling for Different Text Colors */
+h1 {
+  color: #ffffff; /* Different color from body text */
+}
